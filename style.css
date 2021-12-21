@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Rajdhani:wght@500&display=swap');
+.font-1{
+    /* font-family: 'Inconsolata', monospace; */
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.maintext{
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    /* font-size: 2rem; */
+}
+
+nav ul{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+nav li a:hover{
+    color: navy;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.container1{
+ 
+    /* border: 5px solid #563d7c;  */
+    margin-left: 15rem;
+    width: 35rem;
+   }
+.container2{
+ 
+    /* border: 5px solid #563d7c;  */
+    margin-right: 15rem;
+    width: 30rem;
+    margin-left: 10rem;
+    text-align: center;
+   }
+
+   .container2 h1{
+       /* font-weight: bolder; */
+       color: #563d7c;
+       /* font-family: 'Source Code Pro', monospace; */
+       font-family: 'Rajdhani', sans-serif;
+      
+   }
+
+   .container2 p{
+       font-weight: bold;
+   }
+
+   .container2 input{
+    /* border: #563d7c; */
+   }
+
+   /* .container2 input {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  } */
